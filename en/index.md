@@ -95,7 +95,7 @@ alternate_url: /
       <div class="pub-venue">{{ pub.venue }}</div>
       <div class="pub-links">
         {% for link in pub.links %}
-        <a href="#" class="pub-link"><i class="{{ link.icon }}"></i> {{ link.label }}</a>
+        <a href="{{ link.url }}" class="pub-link"><i class="{{ link.icon }}"></i> {{ link.label }}</a>
         {% endfor %}
       </div>
     </div>

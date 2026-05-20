@@ -13,7 +13,7 @@ alternate_url: /en/cv
 <h1 class="section-title">{{ d.nav.cv }}</h1>
 
 <p style="margin-bottom: 2rem;">
-  <a href="#" class="pub-link"><i class="fas fa-file-pdf"></i> 下载 PDF</a>
+  <a href="{{ '/assets/files/cv.pdf' | relative_url }}" class="pub-link"><i class="fas fa-file-pdf"></i> 下载 PDF</a>
 </p>
 
 <!-- Education -->
@@ -57,7 +57,7 @@ alternate_url: /en/cv
       <div class="pub-venue">{{ pub.venue }}</div>
       <div class="pub-links">
         {% for link in pub.links %}
-        <a href="#" class="pub-link"><i class="{{ link.icon }}"></i> {{ link.label }}</a>
+        <a href="{{ link.url }}" class="pub-link"><i class="{{ link.icon }}"></i> {{ link.label }}</a>
         {% endfor %}
       </div>
     </div>
