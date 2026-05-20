@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: home
 title: 论文发表
 lang: zh
 nav_url: /

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: home
 title: CV
 lang: en
 nav_url: /en/

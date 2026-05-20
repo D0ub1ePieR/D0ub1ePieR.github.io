@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: home
 title: Publications
 lang: en
 nav_url: /en/

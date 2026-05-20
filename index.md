@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: home
 title: 首页
 lang: zh
 nav_url: /

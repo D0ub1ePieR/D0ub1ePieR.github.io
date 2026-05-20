@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: home
 title: 简历
 lang: zh
 nav_url: /
