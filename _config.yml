@@ -1,0 +1,28 @@
+title: "仲奕杰"
+description: "Ph.D. Student at XXX University"
+url: "https://yourusername.github.io"
+baseurl: ""
+
+author:
+  name: "Yijie Zhong"
+  bio: "Ph.D. Student at XXX University. Research interests include XXX, XXX, and XXX."
+  avatar: "assets/img/avatar.jpg"
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Collections for publications
+collections:
+  publications:
+    output: true
+    permalink: /:collection/:name/
+
+# Exclude from build
+exclude:
+  - node_modules
+  - vendor
+  - .bundle
+  - README.md

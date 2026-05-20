@@ -1,0 +1,393 @@
+lang: en
+lang_name: English
+nav:
+  home: Home
+  publications: Publications
+  cv: CV
+
+profile:
+  name: Yijie Zhong
+  subtitle: Ph.D. Student at Tongji University
+  bio: >
+    I am a Ph.D. student at the <a href="https://tongji-kgllm.github.io/" target="_blank">Knowledge Computing Lab</a>, Tongji University, supervised by Prof. Haofen Wang. I received my M.S. degree from Nanjing University in 2022, under the supervision of Prof. Zhengxing Sun. My research interests encompass information extraction, memory and retrieval mechanisms in Retrieval-Augmented Generation (RAG) and LLM Agents, with a particular focus on personal knowledge graph construction, personal information management, and personalized applications on intelligent devices. To date, I have published 16 papers in top-tier conferences and journals, 10 of which are first-authored. An additional 5 papers are currently under review.
+
+news:
+  title: News
+  items:
+    - date: "2026.04"
+      title: Paper accepted to SIGIR 2026 (CCF-A)
+    - date: "2026.02"
+      title: Paper accepted to CVPR 2026 (CCF-A)
+    - date: "2026.01"
+      title: Paper accepted to WWW 2026 (CCF-A)
+    - date: "2026.01"
+      title: Paper accepted to KBS (CAS Q1)
+    - date: "2025.11"
+      title: Paper accepted to TOIS (CAS Q1)
+    - date: "2025.08"
+      title: Started internship at vivo BlueImage Lab
+
+education:
+  title: Education
+  items:
+    - date: "2022 - Present"
+      title: "<strong>Tongji University</strong> · Ph.D."
+      subtitle: "College of Design and Innovation, AI-Design (Engineering), Advisor: Prof. Haofen Wang<br>QS 2026 Subject Ranking: 16th Globally, 2nd in Asia"
+    - date: "2019 - 2022"
+      title: "<strong>Nanjing University</strong> · M.S."
+      subtitle: "Department of Computer Science and Technology, Computer Science and Technology, Advisor: Prof. Zhengxing Sun<br>National Key Laboratory"
+    - date: "2015 - 2019"
+      title: "<strong>Nanjing University of Aeronautics and Astronautics</strong> · B.S."
+      subtitle: "School of Computer Science and Technology, Information Security"
+
+research:
+  title: Research Interests
+  description: RAG, LLM & MLLM Agent, Memory Mechanism, Information Extraction, Personal Knowledge Management
+  groups:
+    - label: Now
+      items:
+        - RAG
+        - LLM & MLLM Agent
+        - Memory Mechanism
+        - Information Extraction
+        - Personal Knowledge Management
+    - label: Previous
+      items:
+        - Salient & Camouflaged Object Detection
+        - Image Matting
+        - 3D Reconstruction
+
+publications:
+  title: Publications
+  subtitle: "For a full list, please see"
+  subtitle_link: publications page
+  filters:
+    - label: All
+      value: all
+    - label: "LLM-based Agent & RAG & Knowledge"
+      value: rag-knowledge
+    - label: "MLLM-based Agent & Knowledge"
+      value: mllm-agent
+    - label: "2D / 3D Visual Understanding & Generation"
+      value: visual-3d
+  view_toggle:
+    select: Selected
+    full: Full List
+  # Publication figure naming convention:
+  # Store figures in assets/img/pub/pub<NN>.jpg
+  # Example: assets/img/pub/pub01.jpg
+  items:
+    # --- Under Review ---
+    - title: "CAPTAIN: Cognitive Visual Profiling and Intent Navigation for Fine-grained Image Retrieval and Reasoning"
+      authors: "<strong>Yijie Zhong</strong>, Jian Zhang, Hongye Liu, Zhaomang Sun, Hailong Yan, Jinwei Chen, Peng-Tao Jiang, Haofen Wang, Bo Li"
+      venue: "IEEE Transactions on Multimedia (TMM), Under Review"
+      category: rag-knowledge
+      selected: true
+      figure: pub/pub17.jpg
+      links:
+        - icon: fas fa-file-pdf
+          label: Paper
+
+    - title: "Synergizing RAG and Reasoning: A Systematic Review"
+      authors: "Yunfan Gao, Yun Xiong, <strong>Yijie Zhong</strong>, Yuxi Bi, Ming Xue, Haofen Wang"
+      venue: "ACM Transactions on Information Systems (TOIS), Under Review"
+      category: rag-knowledge
+      selected: false
+      figure: pub/pub18.jpg
+      links:
+        - icon: fas fa-file-pdf
+          label: Paper
+          url: "https://arxiv.org/pdf/2504.15909"
+
+    - title: "AnimeAgent: Is the Multi-Agent via Image-to-Video Models a Good Disney Storytelling Artist?"
+      authors: "Hailong Yan, Shice Liu, Tao Wang, Xiangtao Zhang, <strong>Yijie Zhong</strong>, Jinwei Chen, Le Zhang, Bo Li"
+      venue: "ACM SIGGRAPH Asia, Under Review"
+      category: mllm-agent
+      selected: false
+      figure: pub/pub19.jpg
+      links:
+        - icon: fas fa-file-pdf
+          label: Paper
+          url: "https://arxiv.org/pdf/2602.20664"
+
+    - title: "R4DSG: Relative 4D Scene Graph Memory for Object-Centric Question Answering in Long Egocentric Video"
+      authors: "Ke Ma, Yamin Mao, Weiming Li, Shuai Tan, <strong>Yijie Zhong</strong>, Hao Chen, Haofen Wang, Meng Wang"
+      venue: "ACM Multimedia (MM), Under Review"
+      category: mllm-agent
+      selected: false
+      figure: pub/pub20.jpg
+      links:
+        - icon: fas fa-file-pdf
+          label: Paper
+
+    - title: "REPA-FPO: A Fisher Policy Optimization for Efficient Flow Matching Training"
+      authors: "Tianyi Zheng, Fengxiang Yang, <strong>Yijie Zhong</strong>, Jiayang Gao, Lv Tang, Jinwei Chen, Peng-Tao Jiang, Jia Wang, Bo Li"
+      venue: "Transactions on Machine Learning Research (TMLR), Under Review"
+      category: visual-3d
+      selected: false
+      figure: pub/pub21.jpg
+      links:
+        - icon: fas fa-file-pdf
+          label: Paper
+
+    # --- 2026 ---
+    - title: "Hierarchical Textual Knowledge for Enhanced Image Clustering"
+      authors: "<strong>Yijie Zhong</strong>, Yunfan Gao, Weipeng Jiang, Haofen Wang"
+      venue: "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2026"
+      category: mllm-agent
+      selected: true
+      figure: pub/pub16.jpg
+      links:
+        - icon: fas fa-file-pdf
+          label: Paper
+          url: "https://arxiv.org/pdf/2604.11144"
+
+    - title: "Scene-Aware Memory Discrimination: Deciding Which Personal Knowledge Stays"
+      authors: "<strong>Yijie Zhong</strong>, Mengying Guo, Zewei Wang, Zhongyang Li, Dandan Tu, Haofen Wang"
+      venue: "Knowledge-Based Systems (KBS), 2026"
+      category: rag-knowledge
+      selected: true
+      figure: pub/pub12.jpg
+      links:
+        - icon: fas fa-file-pdf
+          label: Paper
+          url: "https://arxiv.org/pdf/2602.11607"
+
+    - title: "HingeMem: Boundary Guided Long-Term Memory with Query Adaptive Retrieval for Scalable Dialogues"
+      authors: "<strong>Yijie Zhong</strong>, Yunfan Gao, Haofen Wang"
+      venue: "The Web Conference (WWW), 2026"
+      category: rag-knowledge
+      selected: true
+      figure: pub/pub13.jpg
+      links:
+        - icon: fas fa-file-pdf
+          label: Paper
+          url: "https://dl.acm.org/doi/pdf/10.1145/3774904.3792089"
+
+    - title: "C³Flow: SIMD-Style Concurrent Claude Code Workflow for Scaling DeepResearch"
+      authors: "Yunfan Gao, Xinyi Huang, <strong>Yijie Zhong</strong>, Zhidong Fan, Zhengke Gui, Lei Liang, Yun Xiong, Haofen Wang"
+      venue: "ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR), 2026"
+      category: rag-knowledge
+      selected: false
+      figure: pub/pub14.jpg
+      links:
+        - icon: fas fa-file-pdf
+          label: Paper
+
+    - title: "U-NIAH: Unified RAG and LLM Evaluation for Long Context Needle-in-a-Haystack"
+      authors: "Yunfan Gao, Yun Xiong, Wenlong Wu, Bohan Li, <strong>Yijie Zhong</strong>, Haofen Wang"
+      venue: "ACM Transactions on Information Systems (TOIS), 2026"
+      category: rag-knowledge
+      selected: false
+      figure: pub/pub15.jpg
+      links:
+        - icon: fas fa-file-pdf
+          label: Paper
+          url: "https://dl.acm.org/doi/pdf/10.1145/3786609"
+
+    # --- 2025 ---
+    - title: "ODDA: An OODA-Driven Diverse Data Augmentation Framework for Low-Resource Relation Extraction"
+      authors: "<strong>Yijie Zhong</strong>, Yunfan Gao, Xiaolian Zhang, Haofen Wang"
+      venue: "Annual Meeting of the Association for Computational Linguistics (ACL), 2025"
+      category: rag-knowledge
+      selected: true
+      figure: pub/pub10.jpg
+      links:
+        - icon: fas fa-file-pdf
+          label: Paper
+          url: "https://aclanthology.org/2025.findings-acl.15.pdf"
+
+    - title: "Meta-PKE: Memory-Enhanced Task-Adaptive Personal Knowledge Extraction in Daily Life"
+      authors: "<strong>Yijie Zhong</strong>, Feifan Wu, Mengying Guo, Xiaolian Zhang, Meng Wang, Haofen Wang"
+      venue: "Information Processing & Management (IPM), 2025"
+      category: rag-knowledge
+      selected: true
+      figure: pub/pub11.jpg
+      links:
+        - icon: fas fa-file-pdf
+          label: Paper
+          url: "https://www.sciencedirect.com/science/article/abs/pii/S0306457325000391"
+
+    # --- 2024 ---
+    - title: "Towards Proactive Interactions for In-Vehicle Conversational Assistants Utilizing Large Language Models"
+      authors: "Huifang Du, Xuejing Feng, Jun Ma, Meng Wang, Shiyu Tao, <strong>Yijie Zhong</strong>, Yuan-Fang Li, Haofen Wang"
+      venue: "International Joint Conference on Artificial Intelligence (IJCAI), 2024"
+      category: rag-knowledge
+      selected: false
+      figure: pub/pub09.jpg
+      links:
+        - icon: fas fa-file-pdf
+          label: Paper
+          url: "https://arxiv.org/pdf/2403.09135"
+
+    # --- 2023 ---
+    - title: "From Composited to Real-World: Transformer-Based Natural Image Matting"
+      authors: "Yanfeng Wang, Lv Tang, <strong>Yijie Zhong</strong>, Bo Li"
+      venue: "IEEE Transactions on Circuits and Systems for Video Technology (TCSVT), 2023"
+      category: visual-3d
+      selected: false
+      figure: pub/pub08.jpg
+      links:
+        - icon: fas fa-file-pdf
+          label: Paper
+          url: "https://ieeexplore.ieee.org/abstract/document/10198480"
+
+    # --- 2022 ---
+    - title: "Detecting Camouflaged Object in Frequency Domain"
+      authors: "<strong>Yijie Zhong</strong>, Bo Li, Lv Tang, Senyun Kuang, Shuang Wu, Shouhong Ding"
+      venue: "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2022"
+      category: visual-3d
+      selected: true
+      figure: pub/pub07.jpg
+      links:
+        - icon: fas fa-file-pdf
+          label: Paper
+          url: "https://openaccess.thecvf.com/content/CVPR2022/papers/Zhong_Detecting_Camouflaged_Object_in_Frequency_Domain_CVPR_2022_paper.pdf"
+
+    - title: "Multi-View 3D Reconstruction from Video with Transformer"
+      authors: "<strong>Yijie Zhong</strong>, Zhengxing Sun, Yunhan Sun, Shoutong Luo, Yi Wang, Wei Zhang"
+      venue: "IEEE International Conference on Image Processing (ICIP), 2022"
+      category: visual-3d
+      selected: false
+      figure: pub/pub04.jpg
+      links:
+        - icon: fas fa-file-pdf
+          label: Paper
+          url: "https://openreview.net/pdf?id=W2LiOFTZN0Z"
+
+    - title: "Category-Sensitive Incremental Learning for Image-Based 3D Shape Reconstruction"
+      authors: "<strong>Yijie Zhong</strong>, Zhengxing Sun, Shoutong Luo, Yunhan Sun, Wei Zhang"
+      venue: "ACM International Conference on Multimedia (MMM), 2022"
+      category: visual-3d
+      selected: false
+      figure: pub/pub05.jpg
+      links:
+        - icon: fas fa-file-pdf
+          label: Paper
+          url: "https://link.springer.com/chapter/10.1007/978-3-030-98358-1_19"
+
+    - title: "Video Supervised for 3D Reconstruction from Single Image"
+      authors: "<strong>Yijie Zhong</strong>, Zhengxing Sun, Shoutong Luo, Yunhan Sun, Yi Wang"
+      venue: "Multimedia Tools and Applications (MTAP), 2022"
+      category: visual-3d
+      selected: false
+      figure: pub/pub06.jpg
+      links:
+        - icon: fas fa-file-pdf
+          label: Paper
+          url: "https://link.springer.com/article/10.1007/s11042-022-12459-1"
+
+    # --- 2021 ---
+    - title: "Highly Efficient Natural Image Matting"
+      authors: "<strong>Yijie Zhong</strong>, Bo Li, Lv Tang, Hao Tang, Shouhong Ding"
+      venue: "British Machine Vision Conference (BMVC), 2021"
+      category: visual-3d
+      selected: true
+      figure: pub/pub03.jpg
+      links:
+        - icon: fas fa-file-pdf
+          label: Paper
+          url: "https://www.bmva-archive.org.uk/bmvc/2021/assets/papers/1642.pdf"
+
+    - title: "Shape-Pose Ambiguity in Learning 3D Reconstruction from Images"
+      authors: "Yunjie Wu, Zhengxing Sun, Youcheng Song, Yunhan Sun, <strong>Yijie Zhong</strong>, Jinlong Shi"
+      venue: "AAAI Conference on Artificial Intelligence (AAAI), 2021"
+      category: visual-3d
+      selected: false
+      figure: pub/pub01.jpg
+      links:
+        - icon: fas fa-file-pdf
+          label: Paper
+          url: "https://ojs.aaai.org/index.php/AAAI/article/download/16405/16212"
+
+    - title: "Disentangled High Quality Salient Object Detection"
+      authors: "Lv Tang, Bo Li, <strong>Yijie Zhong</strong>, Shouhong Ding, Mofei Song"
+      venue: "IEEE/CVF International Conference on Computer Vision (ICCV), 2021"
+      category: visual-3d
+      selected: false
+      figure: pub/pub02.jpg
+      links:
+        - icon: fas fa-file-pdf
+          label: Paper
+          url: "https://openaccess.thecvf.com/content/ICCV2021/papers/Tang_Disentangled_High_Quality_Salient_Object_Detection_ICCV_2021_paper.pdf"
+
+experience:
+  title: Experience
+  items:
+    - date: "2025.08 - Present · Shanghai"
+      title: "<strong>vivo</strong> Imaging Algorithm Research Lab, BlueImage Lab"
+      subtitle: Research Intern
+      description: >
+        <ul>
+          <li>Explored RAG-based question answering and image captioning for photo album scenarios; designed a systematic image-to-text algorithm and built a textual memory bank to improve efficiency while comprehensively covering visual information</li>
+          <li>Investigated image quality assessment methods and comparison scheme design</li>
+        </ul>
+    - date: "2023.09 - 2024.09 · Shenzhen, Guangdong"
+      title: "<strong>Huawei</strong> 2012 Laboratories, Central Research Institute, Planning Department"
+      subtitle: Research Intern
+      description: >
+        <ul>
+          <li>Participated in the construction of the "Personal Data Foundation", exploring the transformation of multi-source heterogeneous user data from terminal devices into usable personal knowledge bases; identified end-to-end use cases transitioning from passive user input to proactive device triggering, and from passive application initiation to context-aware activation</li>
+          <li>Designed personal schema and knowledge extraction algorithms for text data (SMS, email, memos, etc.) and built automated data construction pipelines; developed person intimacy mining and event detection algorithms for photo album images</li>
+          <li>Explored memory write, storage, and retrieval mechanisms for massive input and interaction data, reducing noise, avoiding redundant computation, improving storage efficiency and retrieval accuracy, while supporting multi-type queries and diverse scenario requirements</li>
+          <li>Collaborated closely with Celia, Theoretical Department, Advanced Computing and Storage Laboratory, and Terminal BG Pre-research Department to drive technology deployment; algorithms ultimately became trade secrets and entered Harmony 5.0 concept project and Harmony 5.1 technology pipeline</li>
+        </ul>
+    - date: "2018.06 - 2018.09 · Nanjing, Jiangsu"
+      title: "<strong>Huawei</strong> Nanjing Research Institute, Software Product Line"
+      subtitle: Intern
+      description: >
+        <ul>
+          <li>Streamlined end-to-end business logic and data flow for the communications product channel sales platform across front, middle, and back offices</li>
+          <li>Independently designed and developed new front-end components for emerging business requirements</li>
+        </ul>
+
+talks:
+  title: Talks
+  items:
+    - date: "2025.12"
+      title: "OpenKG Ph.D. Student Forum · Nanjing"
+      subtitle: >
+        Talk: Personal Knowledge Extraction and Memory Management: Selection, Construction, and Application
+        <br>2000+ attendees (in-person & remote)
+    - date: "2025.09"
+      title: "SJTU 3A Alumni Academic Exchange Session 23 · Ph.D. Forum · Shanghai"
+      subtitle: "Talk: Efficient Construction of Personal Memory Systems: From Memory Discrimination to Retrieval-Augmented Memory"
+
+service:
+  title: Academic Service
+  description: >
+    Reviewed nearly 100 papers in total, and assisted in reviewing dozens of master's and doctoral theses as well as project application materials.
+  conference: Conference Reviewer
+  conference_items:
+    - CVPR
+    - ICLR
+    - ICML
+    - NeurIPS
+    - ICCV
+    - ACL ARR
+    - SIGIR
+    - WWW
+    - ACM MM
+    - ECCV
+    - AAAI
+    - IJCAI
+    - ESWC
+    - DASFAA
+    - ICME
+    - WACV
+    - ACCV
+    - ICKG
+  journal: Journal Reviewer
+  journal_items:
+    - TPAMI
+    - IJCV
+    - TIP
+    - TNNLS
+    - Big Data
+    - JCST
+    - JVCI
+    - SIVP
+    - SPL
+
+footer:
+  copyright: "All rights reserved"

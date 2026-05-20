@@ -1,0 +1,21 @@
+{% assign lang_data = site.data[page.lang] %}
+<header class="site-header">
+  <nav class="nav-container">
+    <a href="{{ page.nav_url | default: '/' | relative_url }}" class="nav-brand">{{ lang_data.profile.name }}</a>
+    <button class="nav-toggle" aria-label="Toggle navigation">
+      <i class="fas fa-bars"></i>
+    </button>
+    <ul class="nav-menu">
+      <li><a href="{{ page.nav_url | default: '/' | relative_url }}" class="nav-link {% if page.url == page.nav_url or page.url == '/' %}active{% endif %}">{{ lang_data.nav.home }}</a></li>
+      <li><a href="{{ page.pub_url | default: '/publications' | relative_url }}" class="nav-link {% if page.url == page.pub_url or page.url == '/publications/' %}active{% endif %}">{{ lang_data.nav.publications }}</a></li>
+      <li><a href="{{ page.cv_url | default: '/cv' | relative_url }}" class="nav-link {% if page.url == page.cv_url or page.url == '/cv/' %}active{% endif %}">{{ lang_data.nav.cv }}</a></li>
+    </ul>
+    <div class="lang-switcher">
+      {% if page.lang == 'zh' %}
+        <a href="{{ page.alternate_url | default: '/' | relative_url }}" class="lang-btn" title="Switch to English">EN</a>
+      {% else %}
+        <a href="{{ page.alternate_url | default: '/zh/' | relative_url }}" class="lang-btn" title="切换到中文">中</a>
+      {% endif %}
+    </div>
+  </nav>
+</header>

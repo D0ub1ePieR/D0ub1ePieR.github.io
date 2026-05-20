@@ -1,0 +1,4 @@
+.bundle/
+.claude/
+_site/
+Gemfile.lock
