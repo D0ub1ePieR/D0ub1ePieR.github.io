@@ -90,7 +90,7 @@ publications:
 
     - title: "Synergizing RAG and Reasoning: A Systematic Review"
       authors: "Yunfan Gao, Yun Xiong, <strong>Yijie Zhong</strong>, Yuxi Bi, Ming Xue, Haofen Wang"
-      venue: "ACM Transactions on Information Systems (TOIS), Under Review"
+      venue: "ACM Computing Surveys, Under Review"
       category: rag-knowledge
       selected: false
       figure: pub/pub18.jpg
