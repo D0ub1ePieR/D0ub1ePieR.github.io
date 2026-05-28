@@ -122,7 +122,7 @@ publications:
 
     - title: "REPA-FPO: A Fisher Policy Optimization for Efficient Flow Matching Training"
       authors: "Tianyi Zheng, Fengxiang Yang, <strong>Yijie Zhong</strong>, Jiayang Gao, Lv Tang, Jinwei Chen, Peng-Tao Jiang, Jia Wang, Bo Li"
-      venue: "Transactions on Machine Learning Research (TMLR), Under Review"
+      venue: "Under Review"
       category: visual-3d
       selected: false
       figure: pub/pub21.jpg
